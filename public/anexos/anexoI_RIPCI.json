@@ -1,1 +1,96 @@
+{
+  "titulo": "Anexo I - Características e instalación de los equipos y sistemas de protección contra incendios",
+  "referencia": "Real Decreto 513/2017",
+  "descripcion": "Este anexo especifica los requisitos técnicos que deben cumplir los equipos y sistemas de protección contra incendios para ser instalados y mantenidos conforme al Reglamento de Instalaciones de Protección Contra Incendios (RIPCI).",
+  "sistemas": [
+    {
+      "nombre": "Sistemas de detección y alarma de incendios",
+      "normas": ["UNE EN 54", "UNE 23007-14"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-de-deteccion-y-alarma-de.html"
+    },
+    {
+      "nombre": "Sistemas de abastecimiento de agua contra incendios",
+      "normas": ["UNE 23500"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-de-abastecimiento-de-agua.html"
+    },
+    {
+      "nombre": "Sistemas de hidrantes exteriores",
+      "normas": ["UNE 23400"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-de-hidrantes-exteriores-anexo.html"
+    },
+    {
+      "nombre": "Sistemas de bocas de incendio equipadas (BIEs)",
+      "normas": ["UNE EN 671-1", "UNE EN 671-3"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-de-bocas-de-incendio-equipadas.html"
+    },
+    {
+      "nombre": "Sistemas de columna seca",
+      "normas": ["UNE 23400"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-de-columna-seca-anexo-i-real.html"
+    },
+    {
+      "nombre": "Extintores de incendios",
+      "normas": ["UNE EN 3", "UNE 23120"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-de-extintores-de-incendios.html"
+    },
+    {
+      "nombre": "Sistemas de rociadores automáticos",
+      "normas": ["UNE EN 12845"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-de-rociadores-automaticos-y.html"
+    },
+    {
+      "nombre": "Sistemas de extinción por agua pulverizada (nebulizada)",
+      "normas": ["UNE EN 14816"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-de-agua-nebulizada-anexo-i.html"
+    },
+    {
+      "nombre": "Sistemas de espuma física",
+      "normas": ["UNE EN 13565"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-fijos-de-extincion-por-espuma.html"
+    },
+    {
+      "nombre": "Sistemas de extinción por polvo",
+      "normas": ["UNE EN 12416"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-fijos-de-extincion-por.html"
+    },
+    {
+      "nombre": "Sistemas de extinción por gases",
+      "normas": ["UNE EN 15004"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-fijos-de-extincion-por-agentes.html"
+    },
+    {
+      "nombre": "Sistemas de control de humos y calor",
+      "normas": ["UNE EN 12101"],
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/sistemas-para-el-control-de-humos-y-de.html"
+    },
+    {
+      "nombre": "Mantas ignífugas",
+      "normas": ["UNE EN 1869"],
+      "url": ""
+    },
+    {
+      "nombre": "Sistemas de señalización luminiscente",
+      "normas": ["UNE 23035"],
+      "url": ""
+    }
+  ],
+  "documentacion_adicional": [
+    {
+      "nombre": "Protección pasiva contra incendios",
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/proteccion-pasiva-contra-incendios.html"
+    },
+    {
+      "nombre": "Condiciones de instalación, uso y mantenimiento",
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/condiciones-de-instalacion-uso-y.html"
+    },
+    {
+      "nombre": "Marcado y documentación",
+      "url": "https://extintoressevillaa2j.blogspot.com/2025/06/marcado-y-documentacion-anexo-i-real.html"
+    },
+    {
+      "nombre": "Texto completo del RD 513/2017 en BOE",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2017-6606"
+    }
+  ]
+}
 
