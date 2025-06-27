@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Centro de Datos A2Jotin</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anexo I - A2Jotin Datos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f6f6f6;
+    }
+    h1 {
+      text-align: center;
+      color: #B22222;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+      background: #fff;
+    }
+    th, td {
+      padding: 0.8rem;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #e7e7e7;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Centro de Datos A2Jotin</h1>
-  <p>Accede a nuestros documentos normativos:</p>
-  <ul>
-    <li><a href="/anexos/anexoI_RIPCI.json" target="_blank">📄 Anexo I - RIPCI (JSON)</a></li>
-  </ul>
+  <h1>Anexo I - Equipos y Sistemas de Protección Contra Incendios</h1>
+  <p><strong>Fuente:</strong> Real Decreto 513/2017 (RIPCI)</p>
+
+  <table id="tabla-anexo">
+    <thead>
+      <tr>
+        <th>Sistema</th>
+        <th>Normas Aplicables</th>
+        <th>Enlace</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    fetch('anexos/anexoI_RIPCI.json')
+      .then(response => response.json())
+      .then(data => {
+        const tbody = document.querySelector("#tabla-anexo tbody");
+        data.sistemas.forEach(sistema => {
+          const fila = document.createElement("tr");
+          fila.innerHTML = `
+            <td>${sistema.nombre}</td>
+            <td>${sistema.normas.join(", ")}</td>
+            <td>${sistema.url ? `<a href="${sistema.url}" target="_blank">Ver publicación</a>` : '—'}</td>
+          `;
+          tbody.appendChild(fila);
+        });
+      })
+      .catch(error => {
+        console.error("Error al cargar el JSON:", error);
+      });
+  </script>
 </body>
 </html>
-
